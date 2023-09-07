@@ -134,12 +134,14 @@
                 android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="16dp"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </ScrollView>
+
     <TextView
+        android:id="@+id/nickname_title"
         android:text="Tu Nickname va aquí"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/nickname_title"
         app:layout_constraintTop_toBottomOf="@+id/home_title"
         app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
         android:textAlignment="center"
